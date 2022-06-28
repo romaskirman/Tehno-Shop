@@ -1,0 +1,19 @@
+.brand-filter{
+  margin-top: 15px;
+}
+
+.filter{
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .type-bar{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .type-bar{
+    font-size: 10.5px;
+  }
+}

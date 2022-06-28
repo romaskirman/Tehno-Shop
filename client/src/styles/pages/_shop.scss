@@ -1,0 +1,21 @@
+.filter-block{
+  width: 70%!important;
+}
+
+.type-brand-block{
+  width: 70%!important;
+}
+
+.type-block{
+  width: 40%!important;
+}
+
+.brand-block{
+  width: 30%!important;
+}
+
+@media screen and (max-width: 576px){
+  .pages{
+    padding-left: 5%;
+  }
+}

@@ -1,0 +1,23 @@
+
+@media screen and (max-width: 1000px){
+  .device-item{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 370px){
+  .device-item-card{
+    width: 135px!important;
+  }
+  .device-item-img{
+    width: 120px!important;
+    height: 120px!important;
+  }
+  .device-item-fs{
+    font-size: 14px;
+  }
+}

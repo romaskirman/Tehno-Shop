@@ -1,0 +1,188 @@
+.input-basket{
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 70%!important;
+}
+
+.basket-block{
+  width: 100%!important;
+}
+
+.basket-del-btn{
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.basket-device-name{
+  width: 75%!important;
+}
+
+.basket-device-price{
+  width: 25%!important;
+}
+
+@media screen and (max-width: 777px){
+  .basket-device-name{
+    width: 70%!important;
+  }
+
+  .basket-name{
+    font-size: 22px!important;
+  }
+
+  .basket-device-price{
+    width: 30%!important;
+  }
+
+  .basket-price{
+    font-size: 22px!important;
+  }
+
+  .basket-device-img{
+    width: 34px!important;
+    height: 34px!important;
+  }
+}
+
+.basket-name {
+  @media screen and (max-width: 504px){
+    font-size: 18px!important;
+  }
+  @media screen and (max-width: 439px){
+    font-size: 16px!important;
+  }
+  @media screen and (max-width: 402px){
+    font-size: 14px!important;
+  }
+  @media screen and (max-width: 373px){
+    font-size: 12px!important;
+  }
+  @media screen and (max-width: 340px){
+    font-size: 11px!important;
+  }
+  @media screen and (max-width: 324px){
+    font-size: 10px!important;
+  }
+}
+
+.basket-price {
+  @media screen and (max-width: 504px) {
+    font-size: 18px !important;
+  }
+  @media screen and (max-width: 439px) {
+    font-size: 16px !important;
+  }
+  @media screen and (max-width: 402px) {
+    font-size: 14px !important;
+  }
+  @media screen and (max-width: 373px) {
+    font-size: 12px !important;
+  }
+  @media screen and (max-width: 340px) {
+    font-size: 11px !important;
+  }
+  @media screen and (max-width: 324px) {
+    font-size: 10px !important;
+  }
+}
+
+.basket-device-img{
+  @media screen and (max-width: 504px){
+    width: 28px!important;
+    height: 28px!important;
+  }
+  @media screen and (max-width: 439px){
+    width: 25px!important;
+    height: 25px!important;
+  }
+  @media screen and (max-width: 402px){
+    width: 22px!important;
+    height: 22px!important;
+  }
+  @media screen and (max-width: 373px){
+    width: 19px!important;
+    height: 19px!important;
+  }
+  @media screen and (max-width: 340px){
+    width: 17px!important;
+    height: 17px!important;
+  }
+  @media screen and (max-width: 324px){
+    width: 16px!important;
+    height: 16px!important;
+  }
+}
+
+.input-basket{
+  @media screen and (max-width: 504px){
+    font-size: 18px!important;
+    padding: 5px 10px;
+  }
+  @media screen and (max-width: 439px){
+    font-size: 16px!important;
+    padding: 4px 8px;
+  }
+  @media screen and (max-width: 402px){
+    font-size: 14px!important;
+    padding: 3px 6px;
+  }
+  @media screen and (max-width: 373px){
+    font-size: 12px!important;
+    padding: 2px 4px;
+  }
+  @media screen and (max-width: 340px){
+    font-size: 11px!important;
+    padding: 1px 2px;
+  }
+  @media screen and (max-width: 324px){
+    font-size: 10px!important;
+    padding: 0.5px 1px;
+  }
+}
+
+.basket-del-btn{
+  @media screen and (max-width: 504px){
+    font-size: 18px!important;
+  }
+  @media screen and (max-width: 439px){
+    font-size: 16px!important;
+  }
+  @media screen and (max-width: 402px){
+    font-size: 14px!important;
+  }
+  @media screen and (max-width: 373px){
+    font-size: 12px!important;
+  }
+  @media screen and (max-width: 340px){
+    font-size: 11px!important;
+  }
+  @media screen and (max-width: 324px){
+    font-size: 10px!important;
+  }
+}
+
+.basket-back-btn{
+  @media screen and (max-width: 504px){
+    font-size: 18px!important;
+  }
+  @media screen and (max-width: 439px){
+    font-size: 16px!important;
+  }
+  @media screen and (max-width: 402px){
+    font-size: 14px!important;
+  }
+  @media screen and (max-width: 373px){
+    font-size: 12px!important;
+  }
+  @media screen and (max-width: 340px){
+    font-size: 11px!important;
+  }
+  @media screen and (max-width: 324px){
+    font-size: 10px!important;
+  }
+}
+

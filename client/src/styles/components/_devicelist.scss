@@ -1,0 +1,18 @@
+@media screen and (max-width: 1000px){
+  .device-list {
+    display: flex !important;
+    flex-direction: row;
+    flex-flow: row wrap;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%!important;
+  }
+
+  .device-list-block{
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: start!important;
+    padding: 0!important;
+  }
+}
+

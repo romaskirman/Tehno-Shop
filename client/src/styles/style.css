@@ -1,0 +1,350 @@
+.nav-main {
+  margin-left: auto; }
+
+.nav-btn {
+  margin-left: 7px; }
+
+@media screen and (max-width: 576px) {
+  .navbar-container {
+    display: flex;
+    flex-direction: column; }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0 !important;
+    margin-top: 20px; } }
+@media screen and (max-width: 335px) {
+  .nav-btns {
+    font-size: 13px; } }
+.brand-filter {
+  margin-top: 15px; }
+
+.filter {
+  margin-top: 8px; }
+
+@media screen and (max-width: 768px) {
+  .type-bar {
+    font-size: 13px; } }
+@media screen and (max-width: 394px) {
+  .type-bar {
+    font-size: 10.5px; } }
+.brand-bar {
+  margin-left: 1px; }
+
+@media screen and (max-width: 1000px) {
+  .brand-bar {
+    display: flex !important;
+    flex-direction: row;
+    flex-flow: row wrap; }
+
+  .brand-card {
+    flex-basis: 50%;
+    text-align: center;
+    width: 10% !important; } }
+@media screen and (max-width: 768px) {
+  .brand-card {
+    font-size: 13px; } }
+@media screen and (max-width: 529px) {
+  .brand-card {
+    font-size: 13px;
+    flex-basis: 100%;
+    padding: 10px !important; } }
+@media screen and (max-width: 394px) {
+  .brand-card {
+    font-size: 10.5px; } }
+@media screen and (max-width: 1000px) {
+  .device-list {
+    display: flex !important;
+    flex-direction: row;
+    flex-flow: row wrap;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100% !important; }
+
+  .device-list-block {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: start !important;
+    padding: 0 !important; } }
+@media screen and (max-width: 1000px) {
+  .device-item {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center; } }
+@media screen and (max-width: 370px) {
+  .device-item-card {
+    width: 135px !important; }
+
+  .device-item-img {
+    width: 120px !important;
+    height: 120px !important; }
+
+  .device-item-fs {
+    font-size: 14px; } }
+.img-device-page {
+  width: 300px;
+  height: 300px; }
+
+.hide {
+  visibility: hidden; }
+
+.characteristics {
+  margin-left: 0;
+  margin-right: 0; }
+
+@media screen and (max-width: 1000px) {
+  .img-device-page {
+    width: 200px;
+    height: 200px; } }
+@media screen and (max-width: 1000px) {
+  .name-device-page {
+    font-size: 20px !important; } }
+.device-page-row {
+  height: 300px; }
+
+@media screen and (max-width: 1000px) {
+  .device-page-row {
+    height: 200px; } }
+@media screen and (max-width: 770px) {
+  .device-page-row {
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; }
+
+  .name-device-block {
+    height: 32px; }
+
+  .img-block {
+    height: 200px; }
+
+  .device-page-btns {
+    display: flex !important;
+    flex-direction: row !important; } }
+@media screen and (max-width: 500px) {
+  .device-page-price {
+    font-size: 20px; }
+
+  .btns {
+    font-size: 14px; } }
+@media screen and (max-width: 425px) {
+  .device-page-price {
+    font-size: 16px; }
+
+  .btns {
+    font-size: 12px; } }
+@media screen and (max-width: 375px) {
+  .device-page-price {
+    font-size: 13px; }
+
+  .btns {
+    font-size: 10px; } }
+@media screen and (max-width: 335px) {
+  .device-page-price {
+    font-size: 12px; }
+
+  .btns {
+    font-size: 9px; } }
+@media screen and (max-width: 445px) {
+  .auth-text {
+    font-size: 12px; }
+
+  .btn-auth {
+    font-size: 14px; } }
+@media screen and (max-width: 385px) {
+  .auth-text {
+    font-size: 9px; }
+
+  .btn-auth {
+    font-size: 12px; } }
+@media screen and (max-width: 330px) {
+  .auth-text {
+    font-size: 8px; }
+
+  .btn-auth {
+    font-size: 11px; } }
+.input-basket {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 70% !important; }
+
+.basket-block {
+  width: 100% !important; }
+
+.basket-del-btn {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0; }
+
+.basket-device-name {
+  width: 75% !important; }
+
+.basket-device-price {
+  width: 25% !important; }
+
+@media screen and (max-width: 777px) {
+  .basket-device-name {
+    width: 70% !important; }
+
+  .basket-name {
+    font-size: 22px !important; }
+
+  .basket-device-price {
+    width: 30% !important; }
+
+  .basket-price {
+    font-size: 22px !important; }
+
+  .basket-device-img {
+    width: 34px !important;
+    height: 34px !important; } }
+@media screen and (max-width: 504px) {
+  .basket-name {
+    font-size: 18px !important; } }
+@media screen and (max-width: 439px) {
+  .basket-name {
+    font-size: 16px !important; } }
+@media screen and (max-width: 402px) {
+  .basket-name {
+    font-size: 14px !important; } }
+@media screen and (max-width: 373px) {
+  .basket-name {
+    font-size: 12px !important; } }
+@media screen and (max-width: 340px) {
+  .basket-name {
+    font-size: 11px !important; } }
+@media screen and (max-width: 324px) {
+  .basket-name {
+    font-size: 10px !important; } }
+
+@media screen and (max-width: 504px) {
+  .basket-price {
+    font-size: 18px !important; } }
+@media screen and (max-width: 439px) {
+  .basket-price {
+    font-size: 16px !important; } }
+@media screen and (max-width: 402px) {
+  .basket-price {
+    font-size: 14px !important; } }
+@media screen and (max-width: 373px) {
+  .basket-price {
+    font-size: 12px !important; } }
+@media screen and (max-width: 340px) {
+  .basket-price {
+    font-size: 11px !important; } }
+@media screen and (max-width: 324px) {
+  .basket-price {
+    font-size: 10px !important; } }
+
+@media screen and (max-width: 504px) {
+  .basket-device-img {
+    width: 28px !important;
+    height: 28px !important; } }
+@media screen and (max-width: 439px) {
+  .basket-device-img {
+    width: 25px !important;
+    height: 25px !important; } }
+@media screen and (max-width: 402px) {
+  .basket-device-img {
+    width: 22px !important;
+    height: 22px !important; } }
+@media screen and (max-width: 373px) {
+  .basket-device-img {
+    width: 19px !important;
+    height: 19px !important; } }
+@media screen and (max-width: 340px) {
+  .basket-device-img {
+    width: 17px !important;
+    height: 17px !important; } }
+@media screen and (max-width: 324px) {
+  .basket-device-img {
+    width: 16px !important;
+    height: 16px !important; } }
+
+@media screen and (max-width: 504px) {
+  .input-basket {
+    font-size: 18px !important;
+    padding: 5px 10px; } }
+@media screen and (max-width: 439px) {
+  .input-basket {
+    font-size: 16px !important;
+    padding: 4px 8px; } }
+@media screen and (max-width: 402px) {
+  .input-basket {
+    font-size: 14px !important;
+    padding: 3px 6px; } }
+@media screen and (max-width: 373px) {
+  .input-basket {
+    font-size: 12px !important;
+    padding: 2px 4px; } }
+@media screen and (max-width: 340px) {
+  .input-basket {
+    font-size: 11px !important;
+    padding: 1px 2px; } }
+@media screen and (max-width: 324px) {
+  .input-basket {
+    font-size: 10px !important;
+    padding: 0.5px 1px; } }
+
+@media screen and (max-width: 504px) {
+  .basket-del-btn {
+    font-size: 18px !important; } }
+@media screen and (max-width: 439px) {
+  .basket-del-btn {
+    font-size: 16px !important; } }
+@media screen and (max-width: 402px) {
+  .basket-del-btn {
+    font-size: 14px !important; } }
+@media screen and (max-width: 373px) {
+  .basket-del-btn {
+    font-size: 12px !important; } }
+@media screen and (max-width: 340px) {
+  .basket-del-btn {
+    font-size: 11px !important; } }
+@media screen and (max-width: 324px) {
+  .basket-del-btn {
+    font-size: 10px !important; } }
+
+@media screen and (max-width: 504px) {
+  .basket-back-btn {
+    font-size: 18px !important; } }
+@media screen and (max-width: 439px) {
+  .basket-back-btn {
+    font-size: 16px !important; } }
+@media screen and (max-width: 402px) {
+  .basket-back-btn {
+    font-size: 14px !important; } }
+@media screen and (max-width: 373px) {
+  .basket-back-btn {
+    font-size: 12px !important; } }
+@media screen and (max-width: 340px) {
+  .basket-back-btn {
+    font-size: 11px !important; } }
+@media screen and (max-width: 324px) {
+  .basket-back-btn {
+    font-size: 10px !important; } }
+
+.filter-block {
+  width: 70% !important; }
+
+.type-brand-block {
+  width: 70% !important; }
+
+.type-block {
+  width: 40% !important; }
+
+.brand-block {
+  width: 30% !important; }
+
+@media screen and (max-width: 576px) {
+  .pages {
+    padding-left: 5%; } }
+
+/*# sourceMappingURL=style.css.map */

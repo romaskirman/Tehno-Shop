@@ -1,0 +1,36 @@
+.brand-bar{
+  margin-left: 1px;
+}
+
+@media screen and (max-width: 1000px){
+  .brand-bar{
+    display: flex!important;
+    flex-direction: row;
+    flex-flow: row wrap;
+  }
+  .brand-card{
+    flex-basis: 50%;
+    text-align: center;
+    width: 10%!important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .brand-card{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 529px) {
+  .brand-card{
+    font-size: 13px;
+    flex-basis: 100%;
+    padding: 10px!important;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .brand-card{
+    font-size: 10.5px;
+  }
+}
