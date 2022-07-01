@@ -186,3 +186,29 @@
   }
 }
 
+.del-basket-img{
+  @media screen and (max-width: 504px){
+    width: 18px;
+    height: 18px;
+  }
+  @media screen and (max-width: 439px){
+    width: 16px;
+    height: 16px;
+  }
+  @media screen and (max-width: 402px){
+    width: 14px;
+    height: 14px;
+  }
+  @media screen and (max-width: 373px){
+    width: 13px;
+    height: 13px;
+  }
+  @media screen and (max-width: 340px){
+    width: 12px;
+    height: 12px;
+  }
+  @media screen and (max-width: 324px){
+    width: 11px;
+    height: 11px;
+  }
+}
