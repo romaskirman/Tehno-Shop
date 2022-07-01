@@ -1,10 +1,11 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {createElement, useContext, useEffect, useState} from 'react';
 import {Container, Card, Col, Row, Image, Button} from "react-bootstrap";
 import bigStar from "../assets/bigStar.png";
 import {useNavigate, useParams} from "react-router-dom";
 import {addToBasket, fetchOneDevice} from "../http/deviceAPI";
 import {BASKET_ROUTE, SHOP_ROUTE} from "../utils/consts";
 import {Context} from "../index";
+import {check} from "../http/userAPI";
 
 const DevicePage = () => {
     const {user} = useContext(Context)
@@ -22,8 +23,27 @@ const DevicePage = () => {
         formData.append('deviceId', id)
         formData.append('name', device.name)
         addToBasket(formData).then(response =>
-            alert(`Товар ` + device.name + ` был добавлен в корзину!`)
+            {
+                addNotification()
+                setTimeout(function (){
+                    let nodes = document.querySelectorAll(".notification-div")
+                    nodes[nodes.length - 1].style.display = 'none'
+                }, 2000)
+            }
         )
+    }
+
+    const addNotification = () => {
+        const createdDiv = document.createElement("div")
+        createdDiv.classList.add("notification-div")
+        const notificationText = document.createElement("p")
+        notificationText.classList.add("notification-text")
+        notificationText.innerText = `Товар ` + device.name + ` был добавлен в корзину!`
+        createdDiv.append(notificationText)
+        document.documentElement.append(createdDiv)
+        document.documentElement.style.cssText = `
+            position: relative;
+        `
     }
 
     return (
