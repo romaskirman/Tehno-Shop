@@ -91,3 +91,22 @@
     font-size: 9px;
   }
 }
+
+.notification-div{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #ffc107;
+  border-radius: 2px;
+  width: 250px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.notification-text{
+  text-align: center;
+  font-weight: 700;
+}
