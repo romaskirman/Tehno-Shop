@@ -2,29 +2,17 @@ import React, { useEffect } from 'react';
 import { useContext } from 'react';
 import { Context } from '..';
 import {delFromBasket, getBasket} from '../http/deviceAPI';
-import {Button, FormControl} from "react-bootstrap";
-import {Form} from "react-bootstrap";
+import {Button} from "react-bootstrap";
 import { Card, Col, Container, Row } from 'react-bootstrap'
 import { observer } from 'mobx-react-lite';
-import {useState} from "react";
 import {SHOP_ROUTE} from "../utils/consts";
 import {useNavigate} from "react-router-dom";
-
-//import close from '../assets/close.svg'
+import close from '../assets/close.svg'
 
 const Basket = observer(() => {
     const {device} = useContext(Context)
 
     const navigate = useNavigate()
-
-    const [value, setValue] = useState('')
-
-    const delDeviceBasket = () => {
-        delFromBasket(value).then(data => {
-            setValue('')
-            //device.setBaskets(data)
-        })
-    }
 
     useEffect(() => {
         getBasket().then(data => device.setBaskets(data))
@@ -56,12 +44,6 @@ const Basket = observer(() => {
 
             <Card className="d-flex w-100 flex-row pt-2 pb-2 justify-content-between align-items-center mb-2 border-0">
                 <div className="basket-block d-flex flex-row">
-                    <FormControl className="input-basket"
-                        value={value}
-                        onChange={e => setValue(e.target.value)}
-                        placeholder={"Введите название устройства"}
-                    />
-                    <Button variant="outline-danger" className="basket-del-btn" onClick={delDeviceBasket}>Удалить</Button>
                 </div>
                 <Button className="ms-5 basket-back-btn" onClick={() => navigate(SHOP_ROUTE)} variant={"outline-primary"}>Назад</Button>
             </Card>
@@ -78,7 +60,18 @@ const Basket = observer(() => {
                                 </div>
                             </div>
                             <div className="d-flex basket-device-price h-100 align-items-center justify-content-end pe-0">
-                                    <h2 className="font-weight-light mb-0 basket-price">{product.device.price} BYN</h2>
+                                    <h2 className="font-weight-light mb-0 basket-price me-2">{product.device.price} BYN</h2>
+                                    <img onClick={e =>
+                                            {
+                                                delFromBasket(product.device.name)
+                                            }
+                                         }
+                                         className="del-basket-img"
+                                         width={20}
+                                         height={20}
+                                         src={close}
+                                         style={{cursor: "pointer"}}
+                                    />
                             </div>
                         </Row>
                     </Card>
